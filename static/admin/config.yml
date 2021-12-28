@@ -52,17 +52,17 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string', required: true }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
-  - name: 'projects'
-    label: 'Projects'
-    label_singular: 'Project'
-    folder: 'content/projects'
+  - name: 'howtos'
+    label: 'howtos'
+    label_singular: 'howto'
+    folder: 'content/howtos'
     create: true
     format: 'frontmatter'
     slug: '{{slug}}'
-    preview_path: 'projects/{{slug}}'
+    preview_path: 'howtos/{{slug}}'
     fields:
       - {
-          label: 'Project Category',
+          label: 'howtos Category',
           name: 'category',
           widget: 'select',
           default: 'animals',

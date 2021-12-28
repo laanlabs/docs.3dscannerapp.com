@@ -2,7 +2,7 @@
   <ul v-if="posts.length > 0" class="cards">
     <li v-for="(post, index) in posts" :key="index">
       <nuxt-link :to="`${postType}/${post.slug}`" class="card card--clickable">
-        <template v-if="postType === 'projects'">
+        <template v-if="postType === 'howtos'">
           <span class="flex-1">
             <h6 class="inline-block py-1 px-2 mr-1 bg-gray text-white text-sm font-medium rounded-sm">
               {{ post.category }}
@@ -61,7 +61,7 @@ export default {
     postType: {
       type: String,
       default: 'faq',
-      validator: (val) => ['faq', 'projects'].includes(val),
+      validator: (val) => ['faq', 'howtos'].includes(val),
     },
     amount: {
       // ? https://content.nuxtjs.org/fetching#limitn

@@ -1,8 +1,8 @@
 <template>
   <main>
     <section v-if="posts" class="w-full max-w-5xl mx-auto">
-      <h1 class="title">Projects</h1>
-      <posts post-type="projects" :amount="10" />
+      <h1 class="title">howtos</h1>
+      <posts post-type="howtos" :amount="10" />
     </section>
   </main>
 </template>
@@ -10,13 +10,13 @@
 <script>
 export default {
   async asyncData({ $content, error }) {
-    let posts;
+    let posts
     try {
-      posts = await $content("projects").fetch();
+      posts = await $content('howtos').fetch()
     } catch (e) {
-      error({ message: "Projects not found" });
+      error({ message: 'howtos not found' })
     }
-    return { posts };
+    return { posts }
   },
 }
 </script>
