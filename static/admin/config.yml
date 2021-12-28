@@ -1,5 +1,5 @@
-site_url: https://ntn-boilerplate.netlify.app/
-logo_url: https://ntn-boilerplate.netlify.app/icon.png
+site_url: https://docs.3dscannerapp.com/
+logo_url: https://docs.3dscannerapp.com/icon.png
 
 publish_mode: editorial_workflow
 backend:
@@ -39,9 +39,9 @@ collections:
               pattern: ['^[a-z]{2}([-])?([A-Za-z]{2})?$', 'Must match "xx" or "xx-XX" syntax (ex. "en" or "sv-SE")'],
             }
           # - { label: Site Email, name: siteemail, widget: string, required: false }
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
+  - name: 'faq'
+    label: 'faq'
+    folder: 'content/faq'
     create: true
     format: 'frontmatter'
     slug: '{{fields.createdAt}}-{{slug}}'
