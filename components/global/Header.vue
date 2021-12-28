@@ -1,14 +1,14 @@
 <template>
-  <nav class="scrim-bg fixed z-40 top-0 inset-x-0 pt-3 px-3" aria-label="Main Menu">
+  <nav class="fixed z-40 top-0 pt-3 px-3" aria-label="Main Menu">
     <ul class="flex">
-      <li class="flex-1">
-        <nuxt-link class="btn block" to="/">Home</nuxt-link>
+      <li class="flex-2">
+        <nuxt-link class="btn btn-blue" to="/">Home</nuxt-link>
       </li>
-      <li class="flex-1 ml-2">
-        <nuxt-link class="btn block" to="/faq">FAQs</nuxt-link>
+      <li class="flex-2 ml-2">
+        <nuxt-link class="btn btn-blue" to="/faq">FAQs</nuxt-link>
       </li>
-      <li class="flex-1 ml-2">
-        <nuxt-link class="btn block" to="/howtos">howtos</nuxt-link>
+      <li class="flex-2 ml-2">
+        <nuxt-link class="btn btn-blue" to="/howtos">How-Tos</nuxt-link>
       </li>
     </ul>
   </nav>
@@ -21,22 +21,16 @@ export default {
 </script>
 
 <style lang="postcss" scoped>
-.scrim-bg {
-  &::before {
-    content: '';
-    z-index: -1;
-    background-color: var(--bg);
-    @apply absolute bottom-0 inset-x-0 h-12 mb-4 transition-colors duration-200 ease-in-out;
-  }
-  &::after {
-    content: '';
-    z-index: -1;
-    opacity: 1;
-    animation: fadeIn1 500ms ease-in-out;
-    @apply pointer-events-none absolute bottom-0 inset-x-0 h-16 -mb-12;
-    background: linear-gradient(to bottom, #111827, cubic-bezier(0.15, 0, 0.45, 1), transparent);
-  }
+.btn {
+  @apply font-bold py-2 px-4 rounded block border-none;
 }
+.btn-blue {
+  @apply bg-blue-500 text-white;
+}
+.btn-blue:hover {
+  @apply bg-blue-700;
+}
+
 .nuxt-link-exact-active {
   @apply text-gray-200 border-gray-400 bg-gray-800 bg-opacity-25 cursor-default;
 }

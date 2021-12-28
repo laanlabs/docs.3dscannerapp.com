@@ -1,7 +1,7 @@
 <template>
   <main>
     <section v-if="posts" class="w-full max-w-5xl mx-auto">
-      <h1 class="title">FAQ's - Frequently Asked Questions:</h1>
+      <h1 class="">FAQ's - Frequently Asked Questions:</h1>
       <posts post-type="faq" :amount="10" />
     </section>
   </main>
