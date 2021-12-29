@@ -1,14 +1,17 @@
 <template>
-  <nav class="fixed z-40 top-0 pt-3 px-3" aria-label="Main Menu">
+  <nav class="container mx-auto p-2" aria-label="Main Menu">
     <ul class="flex">
-      <li class="flex-2">
+      <li class="flex-none">
         <nuxt-link class="btn btn-blue" to="/">Home</nuxt-link>
       </li>
-      <li class="flex-2 ml-2">
+      <li class="flex-none ml-2">
         <nuxt-link class="btn btn-blue" to="/faq">FAQs</nuxt-link>
       </li>
-      <li class="flex-2 ml-2">
+      <li class="flex-none ml-2">
         <nuxt-link class="btn btn-blue" to="/howtos">How-Tos</nuxt-link>
+      </li>
+      <li class="flex-grow ml-2">
+        <Search />
       </li>
     </ul>
   </nav>

@@ -4,13 +4,13 @@
       <nuxt-link :to="`${postType}/${post.slug}`" class="">
         <template v-if="postType === 'howtos'">
           <span class="flex-1">
-            <h6 class="inline-block py-1 px-2 mr-1 bg-gray text-white text-sm font-medium rounded-sm">
-              {{ post.category }}
-            </h6>
             <h3 class="card-title">{{ post.title }}</h3>
             <p class="mt-2">{{ post.description }}</p>
           </span>
           <img v-if="post.cover" class="cover-image" :src="post.cover" />
+          <!-- <span class="rounded-full">
+            {{ post.category }}
+          </span> -->
         </template>
 
         <template v-else>

@@ -4,8 +4,9 @@ A simple static site for serving faq's and howto markdown docs
 
 # TODO's
 
-- [ ] Clean up ui
-- [ ] Add Search
+- [ ] Continue Clean up ui
+- [ ] Add Howtos to Search
+- [ ] close search on click outside with results
 
 
 ### Built With
