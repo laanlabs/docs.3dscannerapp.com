@@ -10,7 +10,7 @@ A simple static site for serving faq's and howto markdown docs
 
 
 ### Built With
-- Nuxt.js (in "universal mode", where both SEO and speed is great)
+- [Nuxt.js](https://nuxtjs.org/) (in "universal mode", where both SEO and speed is great)
 - Vue 2
 - Vuex (supported by adding to `/store`, but not implemented)
 - PostCSS (no SCSS)

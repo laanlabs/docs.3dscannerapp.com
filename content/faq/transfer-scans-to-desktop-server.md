@@ -10,3 +10,5 @@ To share to MAC, using the AirDrop feature is usually the easiest. iCloud is ano
 
 ### PC
 On a PC we usually recommend using a file could service like iCloud (Apple), OneDrive from Microsoft or GDrive from Google. They do charge a subscription fee but a basic plan is usually minima
+
+[Apple Support on how to transfer files](https://support.apple.com/guide/iphone/transfer-files-iphone-computer-iphf2d851b9/ios)
