@@ -22,8 +22,8 @@
     <div v-if="articles.length" class="fixed z-40 p-2 bg-white border rounded border-solid border-slate-200 shadow-md">
       <ul class="">
         <li v-for="article of articles" :key="article.slug" class="border-b-2 border-slate-200 p-2 group">
-          <nuxt-link :to="`/faq/${article.slug}`" class="" @click.native="clearSearch">
-            <span class="group-hover:text-indigo-500">{{ article.title }}</span>
+          <nuxt-link :to="`${article.path}`" class="" @click.native="clearSearch">
+            <span class="group-hover:text-indigo-500">{{ article.title }} </span>
           </nuxt-link>
           <!-- <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">{{ article.title }}</NuxtLink> -->
         </li>
@@ -49,8 +49,8 @@ export default {
         return
       }
 
-      this.articles = await this.$content('faq')
-        .only(['title', 'slug'])
+      this.articles = await this.$content({ deep: true })
+        .only(['title', 'slug', 'path'])
         .sortBy('createdAt', 'asc')
         .limit(12)
         .search(query)

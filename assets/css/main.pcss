@@ -17,3 +17,13 @@
 @tailwind components;
 @tailwind utilities;
 /* If you need to let Tailwind classes overwrite your own classes, they need to be beneath this */
+
+.btn {
+  @apply font-bold py-2 px-4 rounded block border-none;
+}
+.btn-blue {
+  @apply bg-blue-500 text-white;
+}
+.btn-blue:hover {
+  @apply bg-blue-700 text-white;
+}
