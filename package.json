@@ -15,7 +15,10 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@nuxt/content": "^1.14.0",
+    "@nuxtjs/fontawesome": "^1.1.2",
     "nuxt": "^2.15.8"
   },
   "devDependencies": {
@@ -26,7 +29,7 @@
     "eslint": "^8.2.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "netlify-cli": "^7.0.0",
+    "netlify-cli": "^8.6.15",
     "nuxt-purgecss": "^1.0.0",
     "postcss": "^8.3.11",
     "postcss-easing-gradients": "^3.0.1",
