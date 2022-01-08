@@ -72,7 +72,7 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: ['@nuxtjs/color-mode', '@nuxtjs/tailwindcss', '@nuxtjs/svg', '@nuxtjs/pwa'],
+  buildModules: ['@nuxtjs/color-mode', '@nuxtjs/tailwindcss', '@nuxtjs/svg', '@nuxtjs/pwa', '@nuxtjs/fontawesome'],
   /*
    ** Nuxt.js modules
    */
@@ -96,7 +96,7 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config, ctx) { }
   },
   /*
    ** Custom additions configuration
@@ -150,6 +150,12 @@ export default {
       lang: process.env.lang,
       ogHost: process.env.URL,
       ogImage: '/preview.jpg'
+    }
+  },
+  fontawesome: {
+    icons: {
+      solid: true,
+      brands: true
     }
   }
 }

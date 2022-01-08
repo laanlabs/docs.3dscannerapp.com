@@ -1,7 +1,9 @@
 <template>
-  <div class="wrapper max-w-screen-lg">
+  <div class="">
     <Header />
-    <nuxt />
+    <div class="max-w-screen-lg mx-auto">
+      <nuxt />
+    </div>
     <!-- <ColorModePicker /> -->
     <Footer />
   </div>
