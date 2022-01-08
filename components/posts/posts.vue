@@ -1,7 +1,7 @@
 <template>
   <ul v-if="posts.length > 0" class="pt-4">
     <li v-for="(post, index) in posts" :key="index" class="pt-4">
-      <nuxt-link :to="`${postType}/${post.slug}`" class="">
+      <nuxt-link :to="`/${postType}/${post.slug}`" class="">
         <span class="w-full">
           <span class="flex justify-between">
             <h6 class="">{{ post.title }}</h6>
