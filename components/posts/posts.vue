@@ -4,7 +4,7 @@
       <nuxt-link :to="`/${postType}/${post.slug}`" class="">
         <span class="w-full">
           <span class="flex justify-between">
-            <h6 class="">{{ post.title }}</h6>
+            <h6 class="text-primary-600 dark:text-primary-400">{{ post.title }}</h6>
             <span v-if="post.createdAt" class="inline-flex items-center py-2 px-3 text-sm btn-blue rounded">
               <!-- {{ formatDate(post.createdAt) }} -->
               Read More...
