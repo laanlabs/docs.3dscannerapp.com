@@ -82,6 +82,12 @@ Tap the record button again to stop capturing
 
 ( You can also enable manual capture mode to only take photos when you press the shutter button )
 
+<img width="600" src="/images/photo-mode-hands.jpg"/>
+<p align="center">
+<i>( capture all sides of the object )</i>
+</p>
+
+
 
 </br>
 </br>
