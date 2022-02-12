@@ -17,6 +17,9 @@ export default {
         : 'http://localhost:3000',
     lang: SITE_INFO.sitelang || 'en-US'
   },
+  googleAnalytics: {
+    id: 'UA-71657715-3'
+  },
   /*
    ** Headers of the page
    */
@@ -72,7 +75,7 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: ['@nuxtjs/color-mode', '@nuxtjs/tailwindcss', '@nuxtjs/svg', '@nuxtjs/pwa', '@nuxtjs/fontawesome'],
+  buildModules: ['@nuxtjs/color-mode', '@nuxtjs/tailwindcss', '@nuxtjs/svg', '@nuxtjs/pwa', '@nuxtjs/fontawesome', '@nuxtjs/google-analytics'],
   /*
    ** Nuxt.js modules
    */
