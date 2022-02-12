@@ -1,6 +1,6 @@
 <template>
   <ul v-if="posts.length > 0" class="pt-4">
-    <li v-for="(post, index) in posts" :key="index" class="pt-4">
+    <li v-for="(post, index) in posts" :key="index" class="pt-4 mt-3">
       <nuxt-link :to="`/${postType}/${post.slug}`" class="">
         <span class="w-full">
           <span class="flex justify-between">
@@ -14,7 +14,7 @@
             {{ post.category }}
           </span> -->
           </span>
-          <p class="mt-2">{{ post.description }}</p>
+          <p class="mt-0">{{ post.description }}</p>
         </span>
       </nuxt-link>
     </li>
