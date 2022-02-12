@@ -14,7 +14,7 @@ description: Photo mode scans highly detailed and small objects
 'Photos' mode takes a series of images and processes them into a detailed 3d model with real-world scale.
 Processing must be done on a compatible Mac Desktop, or on the cloud. 
 
-This how-to covers the Mac desktop companion app, to learn how to enable cloud processing, click here.
+This how-to covers the Mac desktop companion app, to learn how to enable cloud processing, [click here](/howtos/how-to-enable-photo-mode-cloud-processing)
 
 **NOTE**
 ```
@@ -43,6 +43,7 @@ There are three steps in creating a Photos mode 3d model:
 #### 1. Enable beta access to the Photos mode from iOS 3dScannerApp for iOS 
 
 Open 3dScannerApp for iOS, tap 'Scans' from the camera view, then tap the small gear icon in the lower left corner.
+Next, scroll down and find the switch labeled "Enable Mac Photogrammetry Link" and turn it on.
 
 
 <img style="float: left;" width="300" src="/images/tap-settings.jpg"/>

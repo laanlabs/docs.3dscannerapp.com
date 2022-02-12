@@ -15,9 +15,9 @@ createdAt: 2020-12-28T00:05:42.370Z
 'Photos' mode takes a series of images and processes them into a detailed 3d model with real-world scale.
 Processing must be done in the cloud, or on a compatible Mac desktop.
 
-This how-to covers cloud processing, to learn about Mac desktop processing, click here
+This how-to covers cloud processing, to learn about Mac desktop processing, [click here](/howtos/how-to-enable-photo-mode)
 
-For self-hosted cloud processing options, please contact us at labs@laan.com 
+For self-hosted cloud processing options, please email us at labs@laan.com 
 
 The LiDAR sensor is not required for this mode. 
 
@@ -36,27 +36,21 @@ There are three steps in creating a Photos mode 3d model:
 #### 1. Enable beta access to the Photos mode from iOS 3dScannerApp for iOS 
 
 Open 3dScannerApp for iOS, tap 'Scans' from the camera view, then tap the small gear icon in the lower left corner.
+Next, scroll down and tap 'Edit Settings' button to show advanced settings. 
+Scroll down and find the "Photo Cloud Passcode" text field. 
+Enter the code *0777* in the text field.
 
+<img style="float: left;" width="230" src="/images/tap-settings.jpg"/>
 
-<img style="float: left;" width="300" src="/images/tap-settings.jpg"/>
-<img width="300" src="/images/enable-mac.jpg"/>
+<img style="float: left; margin-left: 30px;" width="230" src="/images/advanced-settings.jpg"/>
 
-</br>
-</br>
-
-#### 2. Download & Install Mac Desktop App 
-
-On your Mac computer, visit this link: [3dScannerApp for Mac download](macappstore://apps.apple.com/us/app/3d-scanner-app/id1419913995)
-
-Install the app, and then open the app and leave it running. 
-
-** Connect to the same WiFi network as your iPhone ** 
+<img width="230" src="/images/photo-cloud.jpg"/>
 
 </br>
 </br>
 
 
-#### 3. Capture images using the iOS app 3dScannerApp 
+#### 2. Capture images using the iOS app 3dScannerApp 
 Once you've enabled Photos mode in the iOS app. 
 Open the app and choose 'Photos' scan mode.
 
@@ -74,28 +68,33 @@ Tap the record button again to stop capturing
 
 ( You can also enable manual capture mode to only take photos when you press the shutter button )
 
+<img width="600" src="/images/photo-mode-hands.jpg"/>
+
 
 </br>
 </br>
 
 
-#### 4. Upload and Process Images
+#### 3. Upload and Process Images
 
 
 Once you've completed capture, tap "Done"
 
-The process screen will pop up, now you must toggle the switch labeled:
-"Enable WiFi Transfer"
+The process screen will pop up, tap "Upload & Process" to upload your images.
+You must keep the app open during upload. Once processing begins, you may close the app and come back later to check on progress.
 
-<img width="300" src="/images/photo-mode-upload.jpg"/>
+Once processing is complete, you can download and view your model. 
 
-Make sure your iPhone and Mac desktop are on the same WiFi network in order to connect. 
+<img width="300" style="float: left;" src="/images/cloud-upload.jpg"/>
+<img width="300" src="/images/bird-model.jpg"/>
 
-Once you are connected, you can tap "Upload & Process" to start processing images into a 3d Model.
 
-Processing can take a few minutes. You can view the 3d model in the Mac app, or download it back to your device. 
+</br>
 
-<img width="600" src="/images/mac-app.png"/>
+![Example Photos Mode Scan](/images/bird-model.png)
+
+</br>
+
 
 
 
