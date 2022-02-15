@@ -45,6 +45,7 @@ There are three steps in creating a Photos mode 3d model:
 Open 3dScannerApp for iOS, tap 'Scans' from the camera view, then tap the small gear icon in the lower left corner.
 Next, scroll down and find the switch labeled "Enable Mac Photogrammetry Link" and turn it on.
 
+Now restart the app by force quitting it ( swipe up from bottom of screen and drag 3dScannerApp upwards to remove it )
 
 <img style="float: left;" width="300" src="/images/tap-settings.jpg"/>
 <img width="300" src="/images/enable-mac.jpg"/>

@@ -40,6 +40,8 @@ Next, scroll down and tap 'Edit Settings' button to show advanced settings.
 Scroll down and find the "Photo Cloud Passcode" text field. 
 Enter the code *0777* in the text field.
 
+Now restart the app by force quitting it ( swipe up from bottom of screen and drag 3dScannerApp upwards to remove it )
+
 <img style="float: left;" width="230" src="/images/tap-settings.jpg"/>
 
 <img style="float: left; margin-left: 30px;" width="230" src="/images/advanced-settings.jpg"/>
