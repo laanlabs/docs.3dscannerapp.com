@@ -17,3 +17,9 @@ An add-on for new versions of SketchUp, [Scan Essentials ](https://blog.sketchup
 Sketchup has a number of extensions to aid with importing 3D Model files. Search the extension store for options, but two known working ones are:
 * [Simlab Obj Importer](https://www.simlab-soft.com/3d-plugins/OBJ_Importer_For_Sketchup-main.aspx?locale=en)
 * [Fluid Importer](https://www.fluidinteractive.com/products/sketchup-extensions/fluidimporter/)
+
+#### transmutr (Paid Application with 7-day trial)
+[Download transmutr](https://lindale.io/transmutr)
+Export from 3DScanner App as OBJ and use the following settings:
+* SCALE MULTIPLIER: 10000
+* UP AXIS: +Y
