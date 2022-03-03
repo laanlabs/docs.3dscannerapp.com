@@ -35,13 +35,13 @@ Open finder on your Mac, in the finder sidebar, select your iPhone by it's name.
 
 At the top of the Finder window, click Files ( see image )
 
-![Example Photos Mode Scan](/images/finder-transfer.png)
+![Finder scan transfer](/images/finder-transfer.png)
 
 
 Now find '3dScannerApp' in the list of your apps and select it.
 Then you can select all scans, and drag them to a folder on your Mac. It will take some time to transfer, so leave your phone plugged in. 
 
-![Example Photos Mode Scan](/images/finder-bulk-transfer.png)
+![Bulk transfer to Mac](/images/finder-bulk-transfer.png)
 
 You can bulk transfer scans back and forth in this manner. ( for example to restore a large backup of scans to a new device )
 
@@ -62,8 +62,16 @@ To find the folder name of a scan from within 3dScannerApp, tap the "More" butto
 
 ### Transferring one or more Scans from a Mac back to your iPhone
 If you have backed up your scans on a desktop, you can restore them to a new phone.
+
 Follow the instructions in the section above 'Bulk Scan Backup ( Mac )'
-But drag all of your scans onto the '3dScannerApp' icon within the 'Files' section of Finder.
+
+Drag all of your backup scans from Finder onto the '3dScannerApp' icon within the 'Files' section of Finder.
+
+
+
+![Bulk scan transfer back to device](/images/bulk-transfer-to-device.jpg)
+
+
 
 
 
