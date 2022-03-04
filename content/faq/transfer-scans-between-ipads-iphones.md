@@ -5,7 +5,8 @@ title: Transfer Scans Between iPads & iPhones
 ## How to Transfer Scans Between iPads / iPhones
 
 
-You can transfer scans wirelessly between iOS devices using AirDrop. 
+You can transfer scans wirelessly between nearby iOS devices using AirDrop. 
+You can also share across your devices anywhere via iCloud drive, [read more here](/faq/transfer-scans-between-ipads-iphones-icloud)
 
 First, ensure both devices have 3DScanner App installed and are nearby on the same WiFi network with Bluetooth enabled. 
 
@@ -15,7 +16,9 @@ The Share activity view will appear, select AirDrop, and choose the other device
 
 </br>
 
-<img style="float: left;" width="230" src="/images/share-all-data.jpg"/>
+<img style="float: left;" width="230" src="/images/share-scan-button.jpg"/>
+
+<img style="float: left; margin-left: 30px;" width="230" src="/images/share-all-data.jpg"/>
 
 <img width="230" src="/images/share-airdrop.jpg"/>
 
@@ -26,12 +29,12 @@ The Share activity view will appear, select AirDrop, and choose the other device
 
 On the receiving device, select 'Files' as save destination if prompted:
 
-<img width="230" src="/images/save-to-files-alert.jpg"/>
+<img width="250" src="/images/save-to-files-alert.jpg"/>
 
 
 Now select the '3d Scanner App' folder under the 'On My iPhone' section to save the scan there.
 
-<img width="230" src="/images/save-to-files.jpg"/>
+<img width="250" src="/images/save-to-files.jpg"/>
 
 You can now open 3d Scanner App and the transferred scan should appear in your scans list.
 
