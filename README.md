@@ -2,6 +2,8 @@
 
 A simple static site for serving faq's and howto markdown docs
 
+NOTE: this site is hosted at https://app.netlify.com/sites/docs-3dscannerapp/overview
+
 # TODO's
 
 - [ ] Continue Clean up ui
