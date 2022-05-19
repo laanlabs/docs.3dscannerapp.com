@@ -36,17 +36,19 @@ There are three steps in creating a Photos mode 3d model:
 #### 1. Enable beta access to the Photos mode from iOS 3dScannerApp for iOS 
 
 Open 3dScannerApp for iOS, tap 'Scans' from the camera view, then tap the small gear icon in the lower left corner.
-Next, scroll down and tap 'Edit Settings' button to show advanced settings. 
-Scroll down and find the "Photo Cloud Passcode" text field. 
-Enter the code *0777* in the text field.
+
+Next, scroll down and enable the switch labelled "Enable Cloud Photogrammetry"
 
 Now restart the app by force quitting it ( swipe up from bottom of screen and drag 3dScannerApp upwards to remove it )
 
 <img style="float: left;" width="230" src="/images/tap-settings.jpg"/>
 
-<img style="float: left; margin-left: 30px;" width="230" src="/images/advanced-settings.jpg"/>
+<img width="230" src="/images/photo-cloud-toggle.jpg"/>
+
+<!-- <img style="float: left; margin-left: 30px;" width="230" src="/images/advanced-settings.jpg"/>
 
 <img width="230" src="/images/photo-cloud.jpg"/>
+ -->
 
 </br>
 </br>
