@@ -49,6 +49,8 @@ https://www.vertexlibrary.com/guide-to-3d-scanning-outdoor-photogrammetry-tips
 
 https://www.artec3d.com/learning-center/what-is-photogrammetry
 
+"A guide covering Photogrammetry including the applications, libraries and tools..."
+https://github.com/mikeroyal/Photogrammetry-Guide
 
 
 </br>
