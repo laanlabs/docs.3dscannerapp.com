@@ -1,5 +1,5 @@
 ---
-createdAt: 2021-12-28T00:05:42.370Z
+createdAt: 2023-04-04T00:05:42.370Z
 title: What Devices Can Take LiDAR Scans?
 ---
 
