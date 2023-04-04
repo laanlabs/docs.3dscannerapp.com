@@ -7,6 +7,8 @@ title: What Devices Can Take LiDAR Scans?
 
 A LiDAR enabled iOS Device is required to take a LiDAR Scan. The following Apple devices come equipped with a LiDAR Sensor:
 
+* iPhone 14 Pro
+* iPhone 14 Pro Max
 * iPhone 13 Pro
 * iPhone 13 Pro Max
 * 12.9-inch iPad Pro with LiDAR (5th Generation)
