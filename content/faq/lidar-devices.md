@@ -18,4 +18,4 @@ A LiDAR enabled iOS Device is required to take a LiDAR Scan. The following Apple
 * 12.9-inch iPad Pro with LiDAR  (4th Generation): Released 2020
 * 11-inch iPad Pro with LiDAR  (2nd Generation): Released 2020
 
-NOTE: This list was created as of January 2021, and Apple may have released additional devices.
+NOTE: This list was created as of April 2023, and Apple may have released additional devices.
